@@ -34,17 +34,17 @@
 					<li><h3>Level</h3></li>
 					<li>
 						<label>
-							<input type="checkbox" name="level" value="1"> ♥ - Healthy but easy.
+							<input type="radio" name="level" value="1"> ♥ - Healthy but easy.
 						</label>
 					</li>
 					<li>
 						<label>
-							<input type="checkbox" name="level" value="2"> ♥♥ - Potentially moderate, but nothing too intense.
+							<input type="radio" name="level" value="2"> ♥♥ - Potentially moderate, but nothing too intense.
 						</label>
 					</li>
 					<li>
 						<label>
-							<input type="checkbox" name="level" value="3"> ♥♥♥ - You can find steep inclines here.
+							<input type="radio" name="level" value="3"> ♥♥♥ - You can find steep inclines here.
 						</label>
 					</li>
 				</ul>
@@ -77,6 +77,7 @@
 <script>
 	$(function() {
 		$('#bh-sl-map-container').storeLocator({
+			'fullMapStart': true,
 			'taxonomyFilters' : {
 				'level' : 'level-filters-container1'
 			}
