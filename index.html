@@ -31,80 +31,32 @@
 			<button id="bh-sl-submit" type="submit">Submit</button>
 
 			<div class="bh-sl-filters-container">
-				<ul id="category-filters-container1" class="bh-sl-filters">
+				<ul id="level-filters-container1" class="bh-sl-filters">
 					<li><h3>Categories</h3></li>
 					<li>
 						<label>
-							<input type="checkbox" name="category" value="Restaurant"> Restaurant
+							<input type="checkbox" name="level" value="Restaurant"> Restaurant
 						</label>
 					</li>
 					<li>
 						<label>
-							<input type="checkbox" name="category" value="Bar"> Bar
+							<input type="checkbox" name="level" value="Bar"> Bar
 						</label>
 					</li>
 					<li>
 						<label>
-							<input type="checkbox" name="category" value="Cafe"> Cafe
+							<input type="checkbox" name="level" value="Cafe"> Cafe
 						</label>
 					</li>
 					<li>
 						<label>
-							<input type="checkbox" name="category" value="Bakery"> Bakery
+							<input type="checkbox" name="level" value="Bakery"> Bakery
 						</label>
 					</li>
 					<li>
 						<label>
-							<input type="checkbox" name="category" value="Coffee"> Coffee
+							<input type="checkbox" name="level" value="Coffee"> Coffee
 						</label>
-					</li>
-				</ul>
-
-				<ul id="category-filters-container2" class="bh-sl-filters">
-					<li><h3>Features</h3></li>
-					<li>
-						<label>
-							<input type="checkbox" name="feature" value="Fresh Guacamole"> Fresh Guacamole
-						</label>
-					</li>
-					<li>
-						<label>
-							<input type="checkbox" name="feature" value="Online Ordering"> Online Ordering
-						</label>
-					</li>
-					<li>
-						<label>
-							<input type="checkbox" name="feature" value="Margaritas"> Margaritas
-						</label>
-					</li>
-				</ul>
-
-				<ul id="city-filter" class="bh-sl-filters">
-					<li><h3>City</h3></li>
-					<li>
-						<select name="city">
-							<option value="">All cities</option>
-							<option value="Minneapolis">Minneapolis</option>
-							<option value="Bloomington">Bloomington</option>
-							<option value="Golden Valley">Golden Valley</option>
-							<option value="St. Louis Park">St. Louis Park</option>
-						</select>
-					</li>
-				</ul>
-				
-				<ul id="postal-filter" class="bh-sl-filters">
-					<li><h3>Zip</h3></li>
-					<li>
-						<input type="radio" name="postal" value="55416">55416
-					</li>
-					<li>
-						<input type="radio" name="postal" value="55343">55343
-					</li>
-					<li>
-						<input type="radio" name="postal" value="55402">55402
-					</li>
-					<li>
-						<input type="radio" name="postal" value="55317">55317
 					</li>
 				</ul>
 			</div>
@@ -127,12 +79,8 @@
 <script>
 	$(function() {
 		$('#bh-sl-map-container').storeLocator({
-			'maxDistance': true,
 			'taxonomyFilters' : {
-				'category' : 'category-filters-container1',
-				'features' : 'category-filters-container2',
-				'city' : 'city-filter',
-				'postal': 'postal-filter'
+				'level' : 'level-filters-container1'
 			}
 		});
 	});
