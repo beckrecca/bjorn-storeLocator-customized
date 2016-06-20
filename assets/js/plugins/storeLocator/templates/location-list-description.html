@@ -5,9 +5,10 @@
 		<div class="list-content">
 			<div class="loc-name">{{name}}</div>
 			<div class="loc-addr">{{address}}</div>
-			<div class="loc-level">Level: {{#times level}}&hearts;{{/times}}</div>
-			<div class="loc-web"><a href="http://{{web}}" target="_blank">Website</a></div>
-			{{#if distance}}<div class="loc-dist">{{distance}} {{length}}</div>
+			<div>Level: {{#times level}}&hearts;{{/times}}</div>
+			<div>{{dist}} miles from {{closest-line}} line</div>
+			<div class="loc-web"><a href="{{web}}" target="_blank">Website</a></div>
+			{{#if distance}}<div class="loc-dist">{{distance}} {{length}} from your location</div>
 			<div class="loc-directions"><a href="http://maps.google.com/maps?saddr={{origin}}&amp;daddr={{address}} &amp;dirflg=r" target="_blank">Directions</a></div>{{/if}}
 		</div>
 	</div>

@@ -6,9 +6,9 @@
     "level": "1",
     "lat": "42.307367",
     "lng": "-71.120776",
-    "closest-line": "orange",
+    "closest_line": "Orange",
     "dist": "0.8",
-    "path-name": "arnold-arboretum",
+    "path_name": "arnold-arboretum",
     "web": "http://www.arboretum.harvard.edu/visit/directions/"
   },
   {
@@ -18,21 +18,21 @@
     "level": "2",
     "lat": "42.2178215",
     "lng": "-71.11949809999999",
-    "closest-line": "215",
+    "closest_line": "215",
     "dist": "0.5",
-    "path-name": "blue-hills",
+    "path_name": "blue-hills",
     "web": "http://www.mass.gov/eea/agencies/dcr/massparks/region-south/blue-hills-reservation.html"
   },
   {
     "id": "3",
-    "name": "Mass Audubon Boston Nature Center &amp; Wildlife Sanctuary",
+    "name": "Mass Audubon Boston Nature Center and Wildlife Sanctuary",
     "address": "500 Walk Hill Street Mattapan, MA 02126",
     "level": "1",
     "lat": "42.2880919",
     "lng": "-71.1013059",
-    "closest-line": "21",
+    "closest_line": "21",
     "dist": "0.7",
-    "path-name": "boston-nature-center",
+    "path_name": "boston-nature-center",
     "web": "http://www.massaudubon.org/get-outdoors/wildlife-sanctuaries/boston-nature-center"
   },
   {
@@ -42,9 +42,9 @@
     "level": "2",
     "lat": "42.4799002",
     "lng": "-71.02591510000002",
-    "closest-line": "429",
+    "closest_line": "429",
     "dist": "0.8",
-    "path-name": "breakheart-reservation",
+    "path_name": "breakheart-reservation",
     "web": "http://www.mass.gov/eea/agencies/dcr/massparks/region-north/breakheart-reservation.html"
   },
   {
@@ -54,9 +54,9 @@
     "level": "1",
     "lat": "42.3254658",
     "lng": "-71.13203199999998",
-    "closest-line": "green-d",
+    "closest_line": "Green-D",
     "dist": "0.7",
-    "path-name": "brookline-reservoir-olmsted",
+    "path_name": "brookline-reservoir-olmsted",
     "web": "https://www.nps.gov/frla/index.htm"
   },
   {
@@ -66,9 +66,9 @@
     "level": "1",
     "lat": "42.3546662",
     "lng": "-71.08153279999999",
-    "closest-line": "red",
+    "closest_line": "Red",
     "dist": "0.25",
-    "path-name": "charles-river",
+    "path_name": "charles-river",
     "web": "http://www.mass.gov/eea/agencies/dcr/massparks/region-boston/charles-river-reservation.html"
   },
   {
@@ -78,9 +78,9 @@
     "level": "1",
     "lat": "42.3348962",
     "lng": "-71.15821970000002",
-    "closest-line": "green-d",
+    "closest_line": "Green-D",
     "dist": "0.8",
-    "path-name": "chestnut-hill-reservoir",
+    "path_name": "chestnut-hill-reservoir",
     "web": "http://www.mass.gov/eea/agencies/dcr/massparks/region-boston/chestnut-hill-reservation.html"
   },
   {
@@ -90,9 +90,9 @@
     "level": "1",
     "lat": "42.3414208",
     "lng": "-71.09233929999999",
-    "closest-line": "green-e",
+    "closest_line": "Green-E",
     "dist": "0.2",
-    "path-name": "emerald-necklace",
+    "path_name": "emerald-necklace",
     "web": "http://www.emeraldnecklace.org/park-overview/"
   },
   {
@@ -102,9 +102,9 @@
     "level": "1",
     "lat": "42.29572089999999",
     "lng": "-71.10352660000001",
-    "closest-line": "orange",
+    "closest_line": "Orange",
     "dist": "0.7",
-    "path-name": "forest-hills-cemetery",
+    "path_name": "forest-hills-cemetery",
     "web": "http://www.foresthillscemetery.com/"
   },
   {
@@ -114,9 +114,9 @@
     "level": "1",
     "lat": "42.38565819999999",
     "lng": "-71.14930770000001",
-    "closest-line": "red",
+    "closest_line": "Red",
     "dist": "0.6",
-    "path-name": "fresh-pond",
+    "path_name": "fresh-pond",
     "web": "https://www.cambridgema.gov/Water/freshpondreservation"
   },
   {
@@ -126,9 +126,9 @@
     "level": "1",
     "lat": "42.32791929999999",
     "lng": "-71.17704800000001",
-    "closest-line": "green-d",
+    "closest_line": "Green-D",
     "dist": "0.5",
-    "path-name": "hammond-webster",
+    "path_name": "hammond-webster",
     "web": "http://www.newtonconservators.org/18webster.htm"
   },
   {
@@ -138,9 +138,9 @@
     "level": "1",
     "lat": "42.3147431",
     "lng": "-71.22783779999997",
-    "closest-line": "green-d",
+    "closest_line": "Green-D",
     "dist": "0.5",
-    "path-name": "hemlock-gorge",
+    "path_name": "hemlock-gorge",
     "web": "http://www.mass.gov/eea/agencies/dcr/massparks/region-south/hemlock-gorge-reservation.html"
   },
   {
@@ -150,9 +150,9 @@
     "level": "2",
     "lat": "42.4600954",
     "lng": "-71.15838769999999",
-    "closest-line": "350",
+    "closest_line": "350",
     "dist": "0.1",
-    "path-name": "horn-pond",
+    "path_name": "horn-pond",
     "web": "http://www.woburnmaps.com/hornpond/HORNPOND.HTM"
   },
   {
@@ -162,9 +162,9 @@
     "level": "3",
     "lat": "42.4768655",
     "lng": "-70.98626619999999",
-    "closest-line": "426",
+    "closest_line": "426",
     "dist": "1.2",
-    "path-name": "lynn-woods",
+    "path_name": "lynn-woods",
     "web": "http://www.cityoflynn.net/citydepartments_lynnwoods.shtml"
   },
   {
@@ -174,9 +174,9 @@
     "level": "3",
     "lat": "42.4423469",
     "lng": "-71.07630019999999",
-    "closest-line": "orange",
+    "closest_line": "Orange",
     "dist": "0.6",
-    "path-name": "middlesex-fells",
+    "path_name": "middlesex-fells",
     "web": "http://www.mass.gov/eea/agencies/dcr/massparks/region-north/middlesex-fells-reservation.html"
   },
   {
@@ -186,9 +186,9 @@
     "level": "2",
     "lat": "42.123719",
     "lng": "-71.20784700000002",
-    "closest-line": "stoughton",
+    "closest_line": "Stoughton",
     "dist": "1.5",
-    "path-name": "moose-hill",
+    "path_name": "moose-hill",
     "web": "http://www.massaudubon.org/get-outdoors/wildlife-sanctuaries/moose-hill"
   },
   {
@@ -198,9 +198,9 @@
     "level": "2",
     "lat": "42.375208",
     "lng": "-71.14497349999999",
-    "closest-line": "71",
+    "closest_line": "71",
     "dist": "0.1",
-    "path-name": "mt-auburn-cemetery",
+    "path_name": "mt-auburn-cemetery",
     "web": "http://mountauburn.org/"
   },
   {
@@ -210,9 +210,9 @@
     "level": "1",
     "lat": "42.4102729",
     "lng": "-71.33234219999997",
-    "closest-line": "fitchburg",
+    "closest_line": "Fitchburg",
     "dist": "0.6",
-    "path-name": "drumlin-farm",
+    "path_name": "drumlin-farm",
     "web": "http://www.massaudubon.org/get-outdoors/wildlife-sanctuaries/drumlin-farm"
   },
   {
@@ -222,9 +222,9 @@
     "level": "1",
     "lat": "42.4452365",
     "lng": "-71.06605569999999",
-    "closest-line": "orange",
+    "closest_line": "Orange",
     "dist": "0.8",
-    "path-name": "pine-banks",
+    "path_name": "pine-banks",
     "web": "http://www.pinebanks.org/"
   },
   {
@@ -234,9 +234,9 @@
     "level": "3",
     "lat": "42.3871524",
     "lng": "-71.25623840000003",
-    "closest-line": "70",
+    "closest_line": "70",
     "dist": "1.0",
-    "path-name": "prospect-hill",
+    "path_name": "prospect-hill",
     "web": "http://walthamlandtrust.org/open-space/guide-to-open-spaces/prospect-hill-park-trails"
   },
   {
@@ -246,9 +246,9 @@
     "level": "1",
     "lat": "42.4635",
     "lng": "-71.18402630000003",
-    "closest-line": "350",
+    "closest_line": "350",
     "dist": "0.5",
-    "path-name": "shaker-glen",
+    "path_name": "shaker-glen",
     "web": "http://2083711.sites.myregisteredsite.com/default.asp?id=15"
   },
   {
@@ -258,9 +258,9 @@
     "level": "1",
     "lat": "42.2643216",
     "lng": "-71.14188089999999",
-    "closest-line": "34",
+    "closest_line": "34",
     "dist": "0.8",
-    "path-name": "stony-brook",
+    "path_name": "stony-brook",
     "web": "http://www.mass.gov/eea/agencies/dcr/massparks/region-boston/stony-brook-reservation.html"
   },
   {
@@ -270,9 +270,9 @@
     "level": "2",
     "lat": "42.2382275",
     "lng": "-70.93015939999998",
-    "closest-line": "220",
+    "closest_line": "220",
     "dist": "0.8",
-    "path-name": "great-esker",
+    "path_name": "great-esker",
     "web": "http://www.south-shore-hiking-trails.com/hiking-trails-weymouth-great-esker-park.html"
   },
   {
@@ -282,9 +282,9 @@
     "level": "2",
     "lat": "42.2373926",
     "lng": "-70.8429337",
-    "closest-line": "greenbush",
+    "closest_line": "Greenbush",
     "dist": "0.6",
-    "path-name": "wompatuck",
+    "path_name": "wompatuck",
     "web": "http://www.mass.gov/eea/agencies/dcr/massparks/region-south/wompatuck-state-park.html"
   },
   {
@@ -294,9 +294,9 @@
     "level": "2",
     "lat": "42.2601649",
     "lng": "-70.87300189999996",
-    "closest-line": "220",
+    "closest_line": "220",
     "dist": "1.4",
-    "path-name": "worlds-end",
+    "path_name": "worlds-end",
     "web": "http://www.thetrustees.org/places-to-visit/south-shore/worlds-end.html"
   }
 ]

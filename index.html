@@ -20,16 +20,100 @@
 				<label for="bh-sl-address">Enter Address or Zip Code:</label>
 				<input type="text" id="bh-sl-address" name="bh-sl-address" />
 				<select id="bh-sl-maxdistance" name="bh-sl-maxdistance">
+					<option value="3">3 Miles</option>
+					<option value="5">5 Miles</option>
 					<option value="10">10 Miles</option>
-					<option value="20">20 Miles</option>
-					<option value="30">30 Miles</option>
-					<option value="40">40 Miles</option>
 				</select>
 			</div>
 
 			<button id="bh-sl-submit" type="submit">Submit</button>
 
 			<div class="bh-sl-filters-container">
+				<ul id="closest-line-filters-container1" class="bh-sl-filters">
+					<li class="subway"><h3>Closest Subway Line</h3></li>
+					<li class="subway">
+						<label>
+							<input type="radio" name="closest-line" value="Red"> Red
+						</label>
+					</li>
+					<li class="subway">
+						<label>
+						    <input type="radio" name="closest-line" value="Orange">Orange
+						</label>
+					</li>
+					<li class="subway">
+						<label>
+						    <input type="radio" name="closest-line" value="Green-D">Green-D
+						</label>
+					</li>
+					<li class="subway">
+						<label>
+						    <input type="radio" name="closest-line" value="Green-E">Green-E
+						</label>
+					</li>
+					<li class="bus"><h3>Closest Bus Line</h3></li>
+					<li class="bus">
+					    <label>
+					        <input type="radio" name="closest-line" value="21">21
+					    </label>
+					</li>
+					<li class="bus">
+					    <label>
+					        <input type="radio" name="closest-line" value="215">215
+					    </label>
+					</li>
+					<li class="bus">
+					    <label>
+					        <input type="radio" name="closest-line" value="220">220
+					    </label>
+					</li>
+					<li class="bus">
+					    <label>
+					        <input type="radio" name="closest-line" value="34">34
+					    </label>
+					</li>
+					<li class="bus">
+					    <label>
+					        <input type="radio" name="closest-line" value="350">350
+					    </label>
+					</li>
+					<li class="bus">
+					    <label>
+					        <input type="radio" name="closest-line" value="426">426
+					    </label>
+					</li>
+					<li class="bus">
+					    <label>
+					        <input type="radio" name="closest-line" value="429">429
+					    </label>
+					</li>
+					<li class="bus">
+					    <label>
+					        <input type="radio" name="closest-line" value="70">70
+					    </label>
+					</li>
+					<li class="bus">
+					    <label>
+					        <input type="radio" name="closest-line" value="71">71
+					    </label>
+					</li>
+					<li class="train"><h3>Closest Commuter Rail Line</li>
+					<li class="train">
+					    <label>
+					        <input type="radio" name="closest-line" value="Fitchburg">Fitchburg
+					    </label>
+					</li>
+					<li class="train">
+					    <label>
+					        <input type="radio" name="closest-line" value="Greenbush">Greenbush
+					    </label>
+					</li>
+					<li class="train">
+					    <label>
+					        <input type="radio" name="closest-line" value="Stoughton">Stoughton
+					    </label>
+					</li>
+				</ul>
 				<ul id="level-filters-container1" class="bh-sl-filters">
 					<li><h3>Level</h3></li>
 					<li>
@@ -78,8 +162,10 @@
 	$(function() {
 		$('#bh-sl-map-container').storeLocator({
 			'fullMapStart': true,
+			'maxDistance': true,
 			'taxonomyFilters' : {
-				'level' : 'level-filters-container1'
+				'level' : 'level-filters-container1',
+				'closest-line' : 'closest-line-filters-container1'
 			}
 		});
 	});
